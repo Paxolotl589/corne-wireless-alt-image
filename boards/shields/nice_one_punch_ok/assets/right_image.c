@@ -81,8 +81,8 @@ const lv_img_dsc_t right_image = {
     .header.cf = LV_IMG_CF_INDEXED_1BIT,
     .header.always_zero = 0,
     .header.reserved = 0,
-    .header.w = 100,
-    .header.h = 69,
+    .header.w = 100, //This is the vertical height of the image
+    .header.h = 69, // This is the width of the image max: 69
     .data_size = 620,
     .data = right_image_map,
 };
